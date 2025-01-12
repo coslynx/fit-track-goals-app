@@ -1,0 +1,18 @@
+{
+  "start:backend": {
+    "description": "Start the backend server",
+    "script": "./startup.sh"
+  },
+  "start:frontend": {
+    "description": "Start the frontend development server",
+    "script": "npm start"
+  },
+  "test:api": {
+    "description": "Run API tests",
+    "script": "npm test api"
+  },
+  "test:frontend": {
+    "description": "Run frontend tests",
+    "script": "npm test client"
+  }
+}
